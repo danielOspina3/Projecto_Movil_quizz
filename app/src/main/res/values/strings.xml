@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">PROGRAMMING</string>
+    <string name="tipos_de_datos">Tipos de Datos</string>
+    <string name="operaciones">operaciones</string>
+
+    <string name="que_es_python">¿Qué es Python?</string>
+    <string name="python_descripcion">Python es un lenguaje de programación interpretado, interactivo y multiplataforma. Es un lenguaje de alto nivel con una sintaxis simple y legible que enfatiza la legibilidad del código. Python es ampliamente utilizado en diversas áreas como desarrollo web, análisis de datos, inteligencia artificial, scripting y automatización.</string>
+
+    <string name="caracteristicas_python">Principales características de Python</string>
+    <string name="lista_caracteristicas">- Sintaxis simple y clara\n- Tipado dinámico\n- Multiplataforma\n- Orientado a objetos\n- Código abierto\n- Amplia biblioteca estándar\n- Fácil de aprender</string>
+
+    <string name="variables">Declaración de variables</string>
+    <string name="ejemplo_variables">nombre = "Juan"\nedad = 25</string>
+
+    <string name="funciones">Funciones</string>
+    <string name="ejemplo_funciones">def sumar(a, b):\n    return a + b\n\n# Función de expresión única\nsumar = lambda a, b: a + b</string>
+
+    <string name="clases">Clases</string>
+    <string name="ejemplo_clases">class Persona:\n    def __init__(self, nombre, edad):\n        self.nombre = nombre\n        self.edad = edad\n\n    def saludar(self):\n        print(f"Hola, mi nombre es {self.nombre} y tengo {self.edad} años.")\n\npersona = Persona("Juan", 25)\npersona.saludar() # Salida: Hola, mi nombre es Juan y tengo 25 años.</string>
+
+    <string name="programacion_funcional">Programación funcional</string>
+    <string name="ejemplo_funcional">numeros = [1, 2, 3, 4, 5]\ncuadrados = map(lambda x: x ** 2, numeros)\nprint(list(cuadrados)) # Salida: [1, 4, 9, 16, 25]</string>
+
+
+        <string name="if_descripcion">La condicional if se utiliza para ejecutar un bloque de código si se cumple una determinada condición.</string>
+    <string name="if_explicacion">La condicional if se utiliza para ejecutar un bloque de código si se cumple una determinada condición. Si la condición es verdadera, se ejecuta el bloque de código dentro del if. Si la condición es falsa, se ignora ese bloque de código.</string>
+        <string name="if_ejemplo">
+        if (condicion) {
+            // Código a ejecutar si la condición es verdadera
+        }
+    </string>
+        <string name="if_else_descripcion">La condicional if-else se utiliza para ejecutar un bloque de código si se cumple una determinada condición, y otro bloque de código si la condición no se cumple.</string>
+        <string name="if_else_ejemplo">
+        if (condicion) {
+            // Código a ejecutar si la condición es verdadera
+        } else {
+            // Código a ejecutar si la condición es falsa
+        }
+    </string>
+        <!-- Otras cadenas de texto -->
+
+        <string name="operadores_logicos_descripcion">Operadores lógicos</string>
+        <string name="operadores_logicos_explicacion">Los operadores lógicos se utilizan para combinar condiciones en una sola expresión. Los principales operadores lógicos son:\n\nand: Evalúa como verdadero si ambas condiciones son verdaderas.\nor: Evalúa como verdadero si al menos una de las condiciones es verdadera.\nnot: Invierte el valor de una condición.</string>
+        <string name="operadores_logicos_ejemplos">
+        // Ejemplo con and\n
+        if (edad >= 18 and nacionalidad == "Española") {\n
+            // Código a ejecutar si la edad es mayor o igual a 18 y la nacionalidad es Española\n
+        }\n\n
+        // Ejemplo con or\n
+        if (esEstudiante or esProfesor) {\n
+            // Código a ejecutar si la persona es estudiante o profesor\n
+        }\n\n
+        // Ejemplo con not\n
+        if (not estaActivo) {\n
+            // Código a ejecutar si la variable estaActivo es falsa\n
+        }
+    </string>
+
+        <string name="condiciones_compuestas_descripcion">Condiciones compuestas</string>
+        <string name="condiciones_compuestas_explicacion">Las condiciones compuestas permiten evaluar varias condiciones en una sola expresión if utilizando operadores lógicos. Esto permite una mayor flexibilidad y control en la toma de decisiones.</string>
+        <string name="condiciones_compuestas_ejemplo">
+        if (edad >= 18 and (nacionalidad == "Española" or residencia == "España")) {\n
+            // Código a ejecutar si la edad es mayor o igual a 18 y la nacionalidad es Española o la residencia es España\n
+        }
+    </string>
+
+
+
+
+
+
+
+        <string name="if_anidados_descripcion">If anidados</string>
+        <string name="if_anidados_explicacion">Los if anidados se utilizan cuando se necesita evaluar múltiples condiciones. En este caso, se anidan varias condicionales if dentro de otras.</string>
+        <string name="if_anidados_ejemplo">
+        if (condicion1) {
+            // Código a ejecutar si la condición 1 es verdadera
+            if (condicion2) {
+                // Código a ejecutar si la condición 2 es verdadera
+            } else {
+                // Código a ejecutar si la condición 2 es falsa
+            }
+        } else {
+            // Código a ejecutar si la condición 1 es falsa
+        }
+    </string>
+    <string name="if_else_explicacion">La condicional if-else se utiliza para ejecutar un bloque de código si se cumple una determinada condición, y otro bloque de código si la condición no se cumple.</string>
+
+</resources>
